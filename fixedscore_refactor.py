@@ -10,6 +10,9 @@ def score_check(score):
         return "Passable"
     else:
         return "Bad"
+def main():
+    score = float(input("Enter score: "))
+    print(score_check(score))
 
-score = float(input("Enter score: "))
-print(score_check(score))
+main()
+
